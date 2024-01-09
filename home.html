@@ -1,67 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSI Capital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSI</title>
     <style>
         body {
             background-color: rgb(255, 255, 255);
             width: 100%;
             height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        .logo {
-            position: absolute;
-            background-image: url("photo/logo_white.png");
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100%;
-            background-size: 400px;
-            opacity: 1;
-        }
-
-        .top-bar {
-            position: absolute;
-            border: 0.5px solid rgb(20, 20, 20);
-            border-radius: 0.5px;
-            border-color: black;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 50px;
-            opacity: 0.5;
-        }
-
-        .paragrafo {
-            position: absolute;
-            top: 50%;
-            left: 20%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 30px;
-            font-family: Arial, Helvetica, sans-serif;
         }
 
         /* Dimensioni per MAC M2 13" */
         @media (max-width: 1710px) {
             .paragrafo {
+                position: absolute;
                 width: 100px;
                 left: 0%;
                 top: 1%;
                 font-size: 35px;
             }
-            .logo {
-                left: 20%;
-                top: 1%;
-                background-size: 300px;
-            }
-
             .top-bar {
-                float: left;
-                top: -1;
-                left: 0%;
-                width: 100%;
-                height: 50px;
+            position: absolute;
+            border: 0.5px solid rgb(20, 20, 20);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            opacity: 0.5;
             }
 
             .top-bar-menu {
@@ -71,7 +36,7 @@
                 top: 1.6%;
                 left: 40%;
                 width: 100%;
-                height: 50px;
+                height: auto;
                 word-spacing: 50px;
                 font-family:sans-serif;
                 font-weight: lighter;
@@ -80,11 +45,51 @@
                 color: black;
                 text-decoration: none;
             }
+            .signUp{
+                position: absolute;
+                padding: 0.4%;
+                font-style: none;
+                font-size: 100%;
+                background-color: rgb(255, 215, 112);;
+                text-align: center;
+                border: 0.3px solid black;
+                border-radius: 3px;
+                left: 90%;
+                top: 1%;
+                width: 9%;
+                height: auto;
+            }
+            .signUp:hover{
+                color: black;
+                background-color: white;
+                transition: 0.3s;
+            }
+
+            .login{
+                position: absolute;
+                padding: 0.4%;
+                font-style: none;
+                font-size: 100%;
+                color: black;
+                text-align: center;
+                background-color: white;
+                border: 0.3px solid black;
+                border-radius: 3px;
+                left: 84%;
+                top: 1%;
+                width: 4%;
+                height: auto;
+            }
+            .login:hover{
+                background-color: rgb(255, 215, 112);
+                transition: 0.3s;
+            }
         }
         
     </style>
 </head>
 <body>
+
         <div class="top-bar">
         </div>
 
@@ -95,11 +100,20 @@
             <a href="#">Support</a>
         </div>
 
-        <div class="logo">
-        </div>
+        <!-- Login e registrati -->
+        <a href="">
+            <div class="signUp">Open Account</div>
+        </a>
+
+        <a href="">
+            <div class="login">Login</div>
+        </a>
+
+       
+
 
         <div class="paragrafo">
-            <h1>Inizia a investire con 1 euro</h1>
+            <h1>sduh</h1>
         </div>
 
     </body>
