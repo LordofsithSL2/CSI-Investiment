@@ -48,6 +48,7 @@ body {
         padding: 0.4%;
         font-style: none;
         font-size: 100%;
+        color: black;
         background-color: rgb(255, 215, 112);;
         text-align: center;
         border: 0.3px solid black;
@@ -127,6 +128,7 @@ body {
         font-size: 100%;
         background-color: rgb(255, 215, 112);;
         text-align: center;
+        color: black;
         border: 0.3px solid black;
         border-radius: 3px;
         left: 89%;
