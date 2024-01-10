@@ -4,7 +4,7 @@ body {
     height: 100%;
 }
 /* Dimensioni per mobile */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .paragrafo {
         position: absolute;
         width: 100px;
@@ -58,7 +58,7 @@ body {
         background-color: white;
         transition: 0.3s;
     }
-
+}
 
 /* Dimensioni per MAC M2 13" Aggiunto intervallo anche */
 @media screen and (min-width:850px) and (max-width: 1710px) {
